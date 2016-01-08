@@ -15,6 +15,10 @@
 		A33D8A0B1C3D679300070D3A /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D8A0A1C3D679300070D3A /* AboutMeTests.swift */; };
 		A33D8A161C3D679300070D3A /* AboutMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D8A151C3D679300070D3A /* AboutMeUITests.swift */; };
 		A33D8A241C3D79F500070D3A /* InterestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D8A231C3D79F500070D3A /* InterestsController.swift */; };
+		A3BCC62E1C4004120010997A /* BooksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCC62D1C4004120010997A /* BooksController.swift */; };
+		A3BCC6301C4005FB0010997A /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCC62F1C4005FB0010997A /* MusicController.swift */; };
+		A3BCC6321C4009FF0010997A /* TVShowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCC6311C4009FF0010997A /* TVShowsController.swift */; };
+		A3BCC6341C400EA30010997A /* VideoGamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCC6331C400EA30010997A /* VideoGamesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A33D8A151C3D679300070D3A /* AboutMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeUITests.swift; sourceTree = "<group>"; };
 		A33D8A171C3D679300070D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A33D8A231C3D79F500070D3A /* InterestsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsController.swift; sourceTree = "<group>"; };
+		A3BCC62D1C4004120010997A /* BooksController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksController.swift; sourceTree = "<group>"; };
+		A3BCC62F1C4005FB0010997A /* MusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		A3BCC6311C4009FF0010997A /* TVShowsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVShowsController.swift; sourceTree = "<group>"; };
+		A3BCC6331C400EA30010997A /* VideoGamesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGamesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		A33D89F41C3D679300070D3A /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
+				A3BCC62D1C4004120010997A /* BooksController.swift */,
 				A33D89F51C3D679300070D3A /* AppDelegate.swift */,
 				A33D89F71C3D679300070D3A /* ViewController.swift */,
 				A33D89F91C3D679300070D3A /* Main.storyboard */,
+				A3BCC6331C400EA30010997A /* VideoGamesController.swift */,
+				A3BCC6311C4009FF0010997A /* TVShowsController.swift */,
 				A33D8A231C3D79F500070D3A /* InterestsController.swift */,
+				A3BCC62F1C4005FB0010997A /* MusicController.swift */,
 				A33D89FC1C3D679300070D3A /* Assets.xcassets */,
 				A33D89FE1C3D679300070D3A /* LaunchScreen.storyboard */,
 				A33D8A011C3D679300070D3A /* Info.plist */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33D89F81C3D679300070D3A /* ViewController.swift in Sources */,
+				A3BCC6301C4005FB0010997A /* MusicController.swift in Sources */,
+				A3BCC6321C4009FF0010997A /* TVShowsController.swift in Sources */,
+				A3BCC6341C400EA30010997A /* VideoGamesController.swift in Sources */,
 				A33D89F61C3D679300070D3A /* AppDelegate.swift in Sources */,
+				A3BCC62E1C4004120010997A /* BooksController.swift in Sources */,
 				A33D8A241C3D79F500070D3A /* InterestsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +504,7 @@
 				A33D8A1C1C3D679300070D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A33D8A1D1C3D679300070D3A /* Build configuration list for PBXNativeTarget "AboutMeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +513,7 @@
 				A33D8A1F1C3D679300070D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A33D8A201C3D679300070D3A /* Build configuration list for PBXNativeTarget "AboutMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +522,7 @@
 				A33D8A221C3D679300070D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
