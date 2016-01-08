@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEL-dG-T86">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEL-dG-T86">
                                 <rect key="frame" x="226" y="28" width="148" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <segue destination="VAW-fZ-hFO" kind="presentation" identifier="changeToInterests" id="bSx-Gd-KCv"/>
@@ -66,8 +66,21 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="math" translatesAutoresizingMaskIntoConstraints="NO" id="gzX-v5-vkL">
+                                <rect key="frame" x="20" y="117" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="The-universe-the-universe-10732134-1728-1152" translatesAutoresizingMaskIntoConstraints="NO" id="dpe-FI-5v3">
+                                <rect key="frame" x="340" y="117" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZA-73-sSj">
+                                <rect key="frame" x="117" y="328" width="391" height="158"/>
+                                <string key="text">My interests include programming, physics and math. I am currently taking a physics course at the U of U. I’ve only had an interest for all three of those subjects for the past 3 years. My goal is one day to be an expert in one of the subjects.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.34756644918273716" green="0.58965706995920131" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <segue destination="LLe-Ue-Mjh" kind="presentation" identifier="changeToBooks" id="MZk-fF-nkY"/>
@@ -102,8 +115,21 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="david" translatesAutoresizingMaskIntoConstraints="NO" id="hqw-Br-2Ea">
+                                <rect key="frame" x="20" y="118" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sjobs_bio" translatesAutoresizingMaskIntoConstraints="NO" id="ZS0-kB-8Q4">
+                                <rect key="frame" x="347" y="118" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0M3-TR-Pdv">
+                                <rect key="frame" x="87" y="309" width="442" height="136"/>
+                                <string key="text">I love to read, mainly non-fiction books, when I’m alone. My favorite books include David and Goliath(this is not the biblical story), the Steve Jobs Biography, Physics of the Future, and Einsteins Biography. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.57358743686868685" green="0.57358743686868685" blue="0.57358743686868685" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <segue destination="L8g-Rc-YZH" kind="presentation" identifier="changeToMusic" id="imx-0S-YkB"/>
@@ -138,8 +164,21 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="the-beatles" translatesAutoresizingMaskIntoConstraints="NO" id="JVm-g4-WAp">
+                                <rect key="frame" x="20" y="122" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rolling stones" translatesAutoresizingMaskIntoConstraints="NO" id="nWG-9N-eNw">
+                                <rect key="frame" x="331" y="122" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4p-f0-1cp">
+                                <rect key="frame" x="57" y="338" width="503" height="153"/>
+                                <string key="text">I love to listen to music while running or doing homework. My favorite bands are the beatles, the Rolling Stones, Bob Dylan, and Cat Stevens. More relevant bands that I like are Of Monsters and Men, and Jeff Williams. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.97916666666666663" green="0.0" blue="0.10844724857045047" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <segue destination="yBg-DJ-2zv" kind="presentation" identifier="changeToTVShows" id="ZjY-Zg-N2d"/>
@@ -161,6 +200,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TV Shows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeP-n7-lM1">
+                                <rect key="frame" x="254" y="20" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0Z-ln-aiU">
                                 <rect key="frame" x="271" y="550" width="93" height="30"/>
                                 <state key="normal" title="Next Screen"/>
@@ -168,14 +213,21 @@
                                     <action selector="changeToInterests:" destination="yBg-DJ-2zv" eventType="touchUpInside" id="2du-Do-EdX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TV Shows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeP-n7-lM1">
-                                <rect key="frame" x="254" y="20" width="93" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seinfeld" translatesAutoresizingMaskIntoConstraints="NO" id="zOi-sG-c1k">
+                                <rect key="frame" x="20" y="54" width="180" height="325"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mr rob" translatesAutoresizingMaskIntoConstraints="NO" id="uL4-2B-h1k">
+                                <rect key="frame" x="305" y="124" width="215" height="185"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMl-Ok-9vm">
+                                <rect key="frame" x="214" y="351" width="291" height="191"/>
+                                <string key="text">My favorite TV shows include Seinfeld, Mr.Robot, Prison Break, and Lost. I watch TV when I need to take a break from school. I have probably seen every Seinfeld episode at least 50 times. Any other TV I watch is on Youtube. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.93888220096923336" blue="0.018808479356670182" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <segue destination="qwJ-t2-gG5" kind="presentation" identifier="changeToVideoGames" id="6Y5-WY-wb9"/>
@@ -203,8 +255,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocket league" translatesAutoresizingMaskIntoConstraints="NO" id="v05-nF-V8e">
+                                <rect key="frame" x="34" y="118" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="V9M-bQ-V1i">
+                                <rect key="frame" x="327" y="118" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCU-dp-MWB">
+                                <rect key="frame" x="36" y="292" width="528" height="237"/>
+                                <string key="text">I love playing video games in my free time. My favorite video games include Garry’s Mod, Rocket League, Euro Truck Simulator, and more. My favorite video game of all time is Modern Warfare 2, and my least favorite video game of all time is Advanced Warfare. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.51907986260816485" blue="0.38430371746094394" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.70978147165337857" blue="0.13679013156616604" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KP6-I1-VIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -212,4 +278,16 @@
             <point key="canvasLocation" x="3961" y="425"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="The-universe-the-universe-10732134-1728-1152" width="1728" height="1152"/>
+        <image name="david" width="252" height="200"/>
+        <image name="header" width="460" height="215"/>
+        <image name="math" width="284" height="177"/>
+        <image name="mr rob" width="235" height="215"/>
+        <image name="rocket league" width="1280" height="720"/>
+        <image name="rolling stones" width="1280" height="720"/>
+        <image name="seinfeld" width="387" height="580"/>
+        <image name="sjobs_bio" width="574" height="414"/>
+        <image name="the-beatles" width="1920" height="1080"/>
+    </resources>
 </document>
