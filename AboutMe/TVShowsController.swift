@@ -6,4 +6,10 @@
 //  Copyright © 2016 Gaebler, Tristan. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class TVShowsController : UIViewController {
+    @IBAction func changeToInterests(sender : UIButton) {
+        performSegueWithIdentifier("changeToVideoGames", sender : sender)
+    }
+}
